@@ -1,0 +1,27 @@
+1. Open terminal:
+Windows:  npm install g ts-node
+Mac/Linux:  sudo npm install -g ts-node
+
+2. Check the code s running
+Run:
+HelloWorld.js
+HelloWorld.ts
+
+3. If error: 
+Run: npx tsc -init
+If asked to install additional packages, press 'Y'
+
+4. If tsconfig.json is not configured, add it manually:
+
+{
+    "compilerOptions": {
+        /*Language and environment options */
+        "target": "es2018",                       //set the JavaScript language version to use
+        "module": "commonjs",                     //specify module code generation
+        "esModuleInterop": true,                  //Omit emitting "d.ts" files that contain all the declarations.
+        "forceConsistentCasingInFileNames": true, //Ensures all casting is correct        "strict": true,
+        "strict": true,                           //Enable all strict type-checking options
+        "skipLibCheck": true                      // skip type checking of all .d.ts files
+    }
+}
+

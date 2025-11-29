@@ -1,6 +1,7 @@
 //encapsulation
 class Item {
 
+    // private instance variables
     private itemName !: string;
     private itemPrice !: number;
 
@@ -10,6 +11,7 @@ class Item {
         this.setItemPrice(price);
     }
 
+    //public methods
     // getter for itemName
     public getItemName(): string {
         return this.itemName;
@@ -38,3 +40,6 @@ console.log(item1);
 // console.log(item1.itemName);   // does not compile as itemName is private
 console.log(item1.getItemName());
 console.log(item1.getItemPrice());
+
+let item2 = new Item("Smartphone", -500);  // will throw an error
+console.log(item2);

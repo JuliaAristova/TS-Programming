@@ -2,13 +2,11 @@ export interface Volume {
     volume(): number;
 
 }
-//abstract class to define abstract methods for area and perimeter common for all classes 
-// that inherit from Shape 
+//abstract class to define abstract methods for area and perimeter 
+// common for all classes that inherit from Shape 
 export abstract class Shape {
     public abstract area(): number;
     public abstract perimeter(): number;
-
-
 }
 
 // concrete class to inherit from Shape and implement area and perimeter methods

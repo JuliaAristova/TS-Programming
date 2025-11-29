@@ -1,3 +1,5 @@
+//Not type safe:passing arguments of different types results in unexpected behavior
+
 function sum(a, b) {
     return a + b;
 }
@@ -6,5 +8,5 @@ function sum(a, b) {
 
 console.log(sum(5, 10));        //15
 console.log(sum());             //NaN
-console.log(sum(1, "2"));       //12 concatination
-console.log(sum("1", 2));       //12
+console.log(sum(5, "10"));       //510 concatination
+console.log(sum("5", 10));       //510

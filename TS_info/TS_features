@@ -1,0 +1,25 @@
+TYPESCRIPT 
+
+- TypeScript is a superset of JavaScript
+- Adds static typing to JS
+- Catch errors early with static typing
+- Improve code readabilty and maintainability
+- Better support for large scale projects
+
+JAVASCRIPT PROGRAMMING
+
+- Dynamically typed, allows variables to change types at runtime
+- Interpreted language that runs without prior compilation (source code is converted to binary code during runtme)
+- Error are typically caught at runtime
+- Less mantainable in large projects (no Type Safety)
+- Does not fully support all OOP principles (JS is Prorotype programmng language)
+- Access modifiers: no explicit access modifiers, properties are public by default
+
+TYPESCRIPT PROGRAMMING
+
+- Statically typed, enables type checking at compile time, which helps catch errors early.
+- Compiled language that needs to be compiled into JS before execution 
+- Error are caught at compile time (reduces runtime errors and improves code reliability)
+- Improves mantainability and readabilty , especiallt in large codebases (Type Safety)
+- Supports all OOP principles
+- Access modifiers: public, protected, private

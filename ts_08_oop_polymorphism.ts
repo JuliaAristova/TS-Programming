@@ -1,5 +1,6 @@
 import { Rectangle, Circle, Square, Cube, Shape, Volume } from './ts_07_oop_inheritance_abstraction'
 
+//reference type as Shape
 let shape: Shape;
 
 shape = new Rectangle(5, 10);
@@ -15,7 +16,7 @@ shape = new Cube(5);
 console.log(shape);
 
 
-console.log("-----------");
+console.log("***** Creating array of Shape references *****");
 let shapes: Shape[] = [
     new Rectangle(5, 10),
     new Circle(5),
